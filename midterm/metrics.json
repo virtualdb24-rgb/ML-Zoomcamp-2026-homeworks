@@ -1,0 +1,27 @@
+{
+  "cv": {
+    "Dummy (mean)": {
+      "rmse_cv": 12074.54,
+      "mae_cv": 9123.03
+    },
+    "Linear Regression": {
+      "rmse_cv": 6117.02,
+      "mae_cv": 4215.5
+    },
+    "Ridge": {
+      "rmse_cv": 6116.99,
+      "mae_cv": 4221.19
+    },
+    "Random Forest": {
+      "rmse_cv": 4900.12,
+      "mae_cv": 2764.68
+    },
+    "XGBoost": {
+      "rmse_cv": 4883.33,
+      "mae_cv": 2789.22
+    }
+  },
+  "best_model": "XGBoost",
+  "test_rmse": 4585.54,
+  "test_mae": 2604.57
+}
